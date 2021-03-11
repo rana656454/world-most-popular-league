@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import "./leauge.css"
-
+import {BsBoxArrowInRight} from "react-icons/bs";
 const Leauge = (props) => {
     const {strLeague,idLeague,strSport} = props.league
     const [leagueDetails,setleagueDetails] = useState([])
@@ -16,7 +16,7 @@ const Leauge = (props) => {
 
     return (
         <div className="col-md-4 col-sm-12 ">
-        <Link to={`/leaguedetails/${idLeague}`}>
+        <Link style={{ textDecoration: 'inherit',color: 'white'}} to={`/leaguedetails/${idLeague}`}>
         <div className=" league-container">
         <div className="img-div">
         <img  src={strBadge} alt=""/>
@@ -24,7 +24,7 @@ const Leauge = (props) => {
         
             <h3>{strLeague}</h3>
             <p>Sports Type: {strSport} </p>
-            <button className="btn btn-primary">Explore</button>
+            <button className="btn btn-primary btn-explore">Explore  <BsBoxArrowInRight/></button>
         </div>
         </Link>
         </div>

@@ -30,19 +30,25 @@
     text-align: center;
 }
 .home-link{
-    background-color: red;
-    width:20%;
+    background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+    width:30%;
     text-align: center;
-    margin-left: 40%;
+    margin-left: 35%;
+    border-radius: 5px;
+}
+
+.home-link h1{
+    color: white;
 }
 
 
 @media only screen and (max-width: 600px) {
     .home-link{
-        background-color: red;
+        background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
         width:90%;
         text-align: center;
         margin-left: 3%;
+        border-radius: 5px;
     }
     
   }

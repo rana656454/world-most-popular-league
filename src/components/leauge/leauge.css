@@ -17,9 +17,16 @@
 
 .league-container h3{
     text-decoration: none;
-    color:gray;
+    color:rgb(134, 29, 29);
     font-size: 25px;
     font-weight: bold;
+}
+
+.league-container p{
+    color:rgb(134, 29, 29);
+    font-size: 18px;
+    font-weight: bold;
+
 }
 
 .league-container:hover{
@@ -35,4 +42,9 @@
 .img-div{
     clip-path: circle(250px at center 0);
     background-color: white;
+}
+
+.btn-explore{
+    font-size: 20px;
+    font-weight: bold;
 }

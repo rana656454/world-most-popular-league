@@ -47,7 +47,7 @@ const Leaguedetails = () => {
         <Paragraph content={strDescriptionFR} headertitle="More Information"></Paragraph>
         <div className="home-link col-sm-12">
         <Link to="/home">
-           <h1><FcHome/> Home Page</h1>
+           <h1><FcHome/> HOME PAGE</h1>
         </Link>
         </div>
       

@@ -10,6 +10,16 @@ const LeagueCard = (props) => {
     
     console.log(props.information)
     const {strLeague,dateFirstEvent,strCountry,strSport,strGender} = props.information
+    let foundedDate = dateFirstEvent
+    let gender = strGender
+    if(foundedDate===""){
+        foundedDate="Info not found"
+    }
+
+    if(gender===""){
+        gender="Info not found"
+    }
+
      let img
     if(strGender==="Male"){
       img=<img src={maleImg} alt ="" />
@@ -33,10 +43,10 @@ const LeagueCard = (props) => {
            <div className="detail-info">
                 <h2> {strLeague}</h2>  
                 <br/>
-                <h4>Founded: {dateFirstEvent}</h4>
+                <h4>Founded: {foundedDate}</h4>
                 <h4>Country: {strCountry}</h4>
                 <h4>Sports Type: {strSport}</h4>
-                <h4>Gender: {strGender}</h4>
+                <h4>Gender: {gender}</h4>
            </div>
         </div>
         <div className="col-md-5 col-sm-12">

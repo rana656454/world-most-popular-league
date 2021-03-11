@@ -5,8 +5,7 @@ import Home from './components/home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Leaguedetails from './components/leaguedetails/Leaguedetails';
 import Notfound from './components/nofound/Notfound';
@@ -16,10 +15,10 @@ function App() {
     <div className="">
      <Router>
        <Switch>
-       <Route exact path="/home">
+       <Route path="/home">
          <Home></Home>
          </Route>
-         <Route exact path={`/leaguedetails/:id`}>
+         <Route path={`/leaguedetails/:id`}>
          <Leaguedetails></Leaguedetails>
          </Route>
          <Route exact path="/">
