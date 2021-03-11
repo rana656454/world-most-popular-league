@@ -1,0 +1,42 @@
+.header{
+    height:400px;
+    width: 100%;
+    background-image: url(../../image/Photo/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.header img{
+    height:300px;
+    width:300px;
+}
+.header h1{
+ color:#fff;
+ font-size:60px;
+ font-weight: bold;   
+ text-shadow: 0 0 20px #ff005b;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .header img{
+        height:100px;
+        width:100px;
+    }
+    .header h1{
+        color:#fff;
+        font-size:40px;
+        font-weight: bold;   
+        text-shadow: 0 0 20px #ff005b;
+       }        
+       .header{
+        height:350px;
+        width: 100%;
+        background-image: url(../../image/Photo/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    
+  }

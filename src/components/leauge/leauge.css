@@ -1,0 +1,38 @@
+
+.league-container{
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.09);
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    box-shadow: 1px 2px 3px 1px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.league-container h3{
+    text-decoration: none;
+    color:gray;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.league-container:hover{
+    background-color:white;
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+.league-container img{
+    width:200px;
+    height: 200px;
+}
+.img-div{
+    clip-path: circle(250px at center 0);
+    background-color: white;
+}

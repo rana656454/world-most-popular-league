@@ -1,0 +1,27 @@
+
+.paragraph{
+    background-color: rgba(0,0,0,0.08);
+    margin-top: 40px;
+    border-radius: 2%;
+    padding-top: 20px;
+}
+.paragraph p{
+color:white;
+font-size:20px;
+text-align:justify;
+padding:20px;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.paragraph h2{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    color:White;
+    border-radius: 1%;
+}

@@ -1,0 +1,31 @@
+.league-card{
+    margin-top:20px;
+    background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+    border-radius: 20px;
+}
+
+.detail-info{
+padding: 40px ;
+color:white;
+}
+
+.iconic-image img{
+    height:300px;
+    width:95%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.detail-info h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.detail-info h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
