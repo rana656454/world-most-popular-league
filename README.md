@@ -5,6 +5,6 @@ My Project Link [visit Website](https://github.com/facebook/create-react-app).
 ## Available Features
   
 
-**League Card**
-**League Details**
+-**League Card**
+-**League Details**
 
